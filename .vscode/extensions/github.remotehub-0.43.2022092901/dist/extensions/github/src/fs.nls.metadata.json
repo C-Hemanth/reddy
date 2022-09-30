@@ -1,0 +1,13 @@
+{
+	"messages": [
+		"Error searching index, falling back to GitHub search. Try [deleting this repo's data]({0}) or [deleting all local data]({1}) to rebuild the index.",
+		"Search flags are not supported by GitHub search. [Download full index]({0}) for full search features and exact text searches.",
+		"Partial results shown. [Download full index]({0}) for exact text searches."
+	],
+	"keys": [
+		"index error",
+		"flags not supported",
+		"enable index"
+	],
+	"filePath": "extensions/github/src/fs"
+}

@@ -1,0 +1,9 @@
+[user]
+	username = C-Hemanth
+	name = C-Hemanth
+	email = 114509544+C-Hemanth@users.noreply.github.com
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

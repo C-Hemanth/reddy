@@ -1,0 +1,18 @@
+00:00:00.866117 VirtualBox GUI VM Selector Window 6.1.28 r147628 win.amd64 (Oct 18 2021 18:49:03) release log
+00:00:00.866119 Log opened 2021-11-16T14:11:16.376744400Z
+00:00:00.866120 Build Type: release
+00:00:00.866122 OS Product: Windows 11
+00:00:00.866123 OS Release: 10.0.22000
+00:00:00.866123 OS Service Pack: 
+00:00:00.899972 DMI Product Name: Inspiron 15 3511
+00:00:00.904356 DMI Product Version: 
+00:00:00.904380 Firmware type: UEFI
+00:00:00.904527 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.904545 Host RAM: 7930MB (7.7GB) total, 3745MB (3.6GB) available
+00:00:00.904549 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.904550 Process ID: 8088
+00:00:00.904550 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.904892 Qt version: 5.6.2
+00:00:00.916817 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.916885 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.521054 refreshCertificates/#3: Found 1/64 SSL certs we/you trust (previously 0/0).

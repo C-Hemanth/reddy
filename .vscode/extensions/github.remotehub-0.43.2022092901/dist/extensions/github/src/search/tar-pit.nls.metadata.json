@@ -1,0 +1,31 @@
+{
+	"messages": [
+		"Unexpected error reading index from disk, attempting to reload from network",
+		"Configure Limit",
+		"Continue",
+		"Repository exceeds download size limit! Continuing with partial text services.",
+		"Use Partial Services",
+		"Configure",
+		"Download Full Contents",
+		"This repository exceeds the download size limit ({0}).",
+		"Continue using a partial version of text services like workspace search and global references, or ignore the limit and download this repository's full contents.",
+		"Disallowed:",
+		"Allowed:",
+		"Repository index allowance overrides"
+	],
+	"keys": [
+		"diskReadUnexpectedError",
+		"configure",
+		"continue",
+		"bigRepo",
+		"cancel",
+		"configure",
+		"continue",
+		"bigRepo",
+		"downloadUse",
+		"disallowed",
+		"disallowed",
+		"select repos where indexing is allowed"
+	],
+	"filePath": "extensions/github/src/search/tar-pit"
+}

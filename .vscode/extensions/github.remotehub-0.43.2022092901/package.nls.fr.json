@@ -1,0 +1,21 @@
+{
+	"displayName": "Dépôts GitHub",
+	"description": "Parcourir et modifier à distance un dépôt GitHub",
+	"config.logLevel": "Spécifie la quantité (le cas échéant) de connexion au canal de sortie _GitHub Repositories_",
+	"config.logLevel.off": "Ne journalise rien",
+	"config.logLevel.error": "Journalise uniquement les erreurs",
+	"config.logLevel.warn": "Journalise toutes les erreurs et avertissements",
+	"config.logLevel.info": "Journalise l’ensemble des erreurs, avertissements et messages",
+	"config.logLevel.debug": "Journalise toutes les erreurs, avertissements et messages avec un contexte supplémentaire utile pour le débogage",
+	"config.autoFetch.enabled": "Spécifie s’il faut effectuer régulièrement une extraction à partir du référentiel en amont",
+	"config.autoFetch.interval": "Spécifie l’intervalle, en secondes, à extraire régulièrement du référentiel en amont",
+	"config.experimental.prefetch": "Spécifie s’il faut tenter de prérécupérer le chargement de l’arborescence (pour les tests de performances)",
+	"config.search.download.sizeLimit": "Spécifie la taille (en Mo) du cache d’index du référentiel. Le cache de recherche se trouve dans le dossier de stockage global de l’extension",
+	"config.search.download.repoLimit": "Spécifie le nombre maximal d’index de référentiel mis en cache par référentiel. Chaque référence nécessite un index de recherche distinct",
+	"config.indexing.verboseDownloadNotification": "Indique s’il faut afficher les notifications contextuelles avec la progression du téléchargement de l’index. Lorsque cette option est désactivée, la progression du téléchargement s’affiche dans la barre d’état.",
+	"config.indexing.maxIndexSize": "Taille maximale en (Mo) du contenu de l’index de référentiel à télécharger sans demande explicite. Définissez la valeur « null »/empty pour ne jamais télécharger automatiquement le contenu de l’index du référentiel, ou 0 pour toujours demander avant de télécharger le contenu de l’index du référentiel.",
+	"config.experimental.fs.useTars": "Spécifie s’il faut essayer d’utiliser des fichiers tar pour les opérations du système de fichiers",
+	"config.experimental.fs.useTars.always": "Utilise toujours des fichiers tar",
+	"config.experimental.fs.useTars.ifAvailable": "Utilise des fichiers tar s’ils sont disponibles",
+	"config.experimental.fs.useTars.never": "N’utilise jamais de fichiers tar"
+}

@@ -1,0 +1,85 @@
+{
+	"name": "csharp-colors",
+	"displayName": "C# Colors",
+	"description": "Highlight C# colors in your editor",
+	"version": "0.1.8",
+	"publisher": "logerfo",
+	"keywords": [
+		"c#",
+		"csharp",
+		"color"
+	],
+	"engines": {
+		"vscode": "^1.14.0"
+	},
+	"bugs": {
+		"url": "https://github.com/Logerfo/csharp-colors/issues",
+		"email": "bruno@logerfo.tk"
+	},
+	"author": {
+		"email": "bruno@logerfo.tk",
+		"name": "Bruno Logerfo",
+		"url": "https://github.com/Logerfo"
+	},
+	"galleryBanner": {
+		"color": "#181818",
+		"theme": "dark"
+	},
+	"icon": "icon.png",
+	"license": "Unlicense",
+	"homepage": "https://github.com/Logerfo/csharp-colors/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Logerfo/csharp-colors.git"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:csharp"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "csharp-colors.colorHighlight",
+				"title": "Highlight colors in current file"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "csharp-colors.colorHighlight",
+					"when": "false"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "webpack --mode production",
+		"compile": "webpack --mode none",
+		"watch": "webpack --mode none --watch"
+	},
+	"devDependencies": {
+		"@types/mocha": "7.0.2",
+		"@types/node": "11.13.9",
+		"ts-loader": "6.2.1",
+		"tslint": "5.20.1",
+		"typescript": "3.8.3",
+		"@types/vscode": "1.14.0",
+		"webpack": "4.42.0",
+		"webpack-cli": "3.3.11"
+	},
+	"dependencies": {
+		"color": "^3.0.0",
+		"color-name": "^1.1.4"
+	},
+	"__metadata": {
+		"id": "72bae0eb-8935-47f2-9042-01b7ebdd20ed",
+		"publisherId": "74557c99-4294-4c9a-9efe-4472a43c0c7b",
+		"publisherDisplayName": "Logerfo",
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1650819814315
+	}
+}

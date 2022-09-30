@@ -1,0 +1,21 @@
+{
+	"displayName": "GitHub Depoları",
+	"description": "GitHub deposuna uzaktan göz atıp düzenleyin",
+	"config.logLevel": "_GitHub Repositories_ çıkış kanalına ne kadar (varsa) günlük kaydedileceğini belirtir",
+	"config.logLevel.off": "Hiçbir şeyi günlüğe kaydetmez",
+	"config.logLevel.error": "Yalnızca hataları günlüğe kaydeder",
+	"config.logLevel.warn": "Tüm hataları ve uyarıları kaydeder",
+	"config.logLevel.info": "Tüm hataları, uyarıları ve iletileri günlüğe kaydeder",
+	"config.logLevel.debug": "Hata ayıklama için yararlı ek bağlamla birlikte tüm hataları, uyarıları ve iletileri günlüğe kaydeder",
+	"config.autoFetch.enabled": "Yukarı akış deposundan düzenli aralıklarla getirilip getirilemeyeceğini belirtir",
+	"config.autoFetch.interval": "Yukarı akış deposundan düzenli olarak getirilecek aralığı saniye cinsinden belirtir",
+	"config.experimental.prefetch": "Ağaç yüklemesi önceden getirmenin denenip denenmeyeceğini belirtir (performans testi için)",
+	"config.search.download.sizeLimit": "Depo dizini önbelleğinin boyutunu (MB cinsinden) belirtir. Arama önbelleği, uzantının genel depolama klasöründe bulunur",
+	"config.search.download.repoLimit": "Depo başına önbelleğe alınan en fazla sayıda depo dizinini belirtir. Her başvuru ayrı bir arama dizini gerektirir",
+	"config.indexing.verboseDownloadNotification": "Dizin indirme ilerlemesi ile açılır bildirimlerin gösterilme durumu. Devre dışı bırakıldığında, indirme ilerlemesi durum çubuğunda görüntülenir.",
+	"config.indexing.maxIndexSize": "Açık istek olmadan indirilecek depo dizini içeriğinin en büyük boyutu (MB cinsinden). Depo dizini içeriklerini otomatik olarak indirmeden önce 'null'/boş olarak ayarlayın veya depo dizini içeriğini indirmeden önce her zaman istek bildirmek için 0 olarak ayarlayın.",
+	"config.experimental.fs.useTars": "Dosya sistemi işlemleri için tar dosyalarının kullanılmasının denenip denenmeyeceğini belirtir",
+	"config.experimental.fs.useTars.always": "Tar dosyalarını her zaman kullanır",
+	"config.experimental.fs.useTars.ifAvailable": "Varsa tar dosyalarını kullanır",
+	"config.experimental.fs.useTars.never": "Tar dosyalarını hiçbir zaman kullanmaz"
+}

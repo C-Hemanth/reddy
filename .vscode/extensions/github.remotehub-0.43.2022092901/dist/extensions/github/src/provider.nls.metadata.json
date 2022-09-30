@@ -1,0 +1,19 @@
+{
+	"messages": [
+		"Open Repository from {0}",
+		"Choose a repository",
+		"Open Pull Request from {0}",
+		"Choose a pull request",
+		"Downloading repository index",
+		"Unable to search {0} without index, falling back to {1}."
+	],
+	"keys": [
+		"open repo from",
+		"pick repo",
+		"open pr from",
+		"pick pr",
+		"fetching index",
+		"Cant search branch"
+	],
+	"filePath": "extensions/github/src/provider"
+}
